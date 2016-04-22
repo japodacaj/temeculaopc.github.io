@@ -1,7 +1,5 @@
 <!-- TODO this file has become a mess, refactor it -->
 
-{% if page.bigimg or page.title %}
-
 {% if page.bigimg %}
   <div id="header-big-imgs" data-num-img={% if page.bigimg.first %}{{ page.bigimg.size }}{% else %}1{% endif %}
     {% for bigimg in page.bigimg %}
@@ -34,7 +32,7 @@
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
-		  
+
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}
@@ -59,7 +57,7 @@
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
-		  
+
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}
@@ -69,8 +67,3 @@
   </div>
 </div>
 </header>
-
-
-{% else %}
-<div class="intro-header"></div>
-{% endif %}
