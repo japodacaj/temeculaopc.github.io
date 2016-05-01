@@ -7,7 +7,7 @@ subtitle: Temecula OPC
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Welcome</h1>
+      <h1>Welcome Blog</h1>
       <p>
         Providence is a congregation of saints who are united by the transforming
         Gospel of Jesus Christ, meeting weekly to worship the Triune God in spirit
@@ -23,7 +23,6 @@ subtitle: Temecula OPC
 
 <div class="posts-list">
   {% for post in site.posts %}
-    {% if post.categories contains 'blog' %}
       <article class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}">
           <h2 class="post-title">{{ post.title }}</h2>
@@ -45,7 +44,6 @@ subtitle: Temecula OPC
         </div>
 
       </article>
-    {% endif %}
   {% endfor %}
 </div>
 
@@ -63,3 +61,4 @@ subtitle: Temecula OPC
     {% endif %}
   </ul>
 {% endif %}
+

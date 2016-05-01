@@ -23,7 +23,7 @@ subtitle: Temecula OPC
 
 <div class="posts-list">
   {% for post in site.posts %}
-    {% if post.categories contains 'blog' %}
+    {% if post.categories contains 'announcements' %}
       <article class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}">
           <h2 class="post-title">{{ post.title }}</h2>
@@ -63,3 +63,4 @@ subtitle: Temecula OPC
     {% endif %}
   </ul>
 {% endif %}
+

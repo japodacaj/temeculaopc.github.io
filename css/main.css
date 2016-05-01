@@ -18,8 +18,8 @@ p a {
   color: #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Serif';
-  font-weight: 300;
+  font-family: 'Roboto Slab';
+  font-weight: 400;
 }
 a {
   color: #008AFF;
@@ -248,7 +248,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   text-align: center;
   margin-bottom: 0;
 }
