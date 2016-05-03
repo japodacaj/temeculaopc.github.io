@@ -2,6 +2,17 @@
 layout: page
 title:  About Providence Church
 subtitle: What to Expect
+bigimg:
+  - "/img/big-imgs/baptism2.jpg" : "Coral Chase's Baptism, 04/10/16"
+  - "/img/big-imgs/Community1.jpg" : ""
+  - "/img/big-imgs/Community2.jpg" : ""
+  - "/img/big-imgs/Community3.jpg" : ""
+  - "/img/big-imgs/Community5.jpg" : ""
+  - "/img/big-imgs/Community6.jpg" : ""
+  - "/img/big-imgs/Community7.jpg" : ""
+  - "/img/big-imgs/suns-out-guns-out.jpg" : ""
+  - "/img/big-imgs/members.jpg" : "New Members, 4/10/16"
+  - "/img/big-imgs/preaching3.jpg" : "Intern Cruse, 4/24/16"
 ---
 
 ### What to Expect:
