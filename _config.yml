@@ -109,6 +109,9 @@ exclude:
 
 # prose.io config
 prose:
+  rooturl: '_posts'
+  siteurl: 'http://temeculaopc.github.io/'
+  media: 'img'
   ignore:
     - 404.html
     - LICENSE
@@ -120,44 +123,17 @@ prose:
     - /img
     - /js
   metadata:
-    announcements/_posts:
+    _posts:
       - name: "category"
         field:
-          element: "hidden"
-          value: "announcements"
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
-    blog/_posts:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "announcements"
+          element: "select"
+          label: "Add Categories"
+          placeholder: "Choose Category"
+          options:
+            - name: "Blog"
+              value: "blog"
+            - name: "Announcement"
+              value: "announcement"
       - name: "layout"
         field:
           element: "hidden"
