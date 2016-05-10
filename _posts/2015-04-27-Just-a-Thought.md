@@ -1,8 +1,9 @@
 ---
 layout: post
 category: blog
-title: Just a Thought
-date: 2015-04-27 21:35
+title: Preparing for Worship 1
+date: "2015-04-27 21:35"
+published: true
 ---
 
 If you were in service last week, you will have noticed that our upcoming Hymn of the Month is “A Debtor to Mercy Alone.” This text was written by Augustus Toplady (most famous for penning the words to “Rock of Ages”) in 1771. It is splendid hymn, and in only three verses it is able to speak to such things as salvation by grace, justification, perseverance, and assurance. This Wednesday, I wanted to share some thoughts with you from a line in the first verse:
