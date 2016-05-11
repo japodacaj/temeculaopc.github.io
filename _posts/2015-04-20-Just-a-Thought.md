@@ -1,8 +1,9 @@
 ---
 layout: post
 category: blog
-title: Just a Thought
-date: 2015-04-20 21:35
+title: "Three Nails in the Coffin of Self-Justification "
+date: "2015-04-20 21:35"
+published: true
 ---
 
 Dear brothers and sisters, allow me to remind you today of the famous words from Ephesians 2:8-9—“For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.” What an important passage for us to saturate our hearts in day in and day out!  Herein lies the airtight argument for our utter dependence on Jesus for salvation.  A pastor once said in these verses are “the three nails in the coffin of self-justification:” we are saved 1) by grace 2) through faith 3) and not by works.  How often do your remind yourself of these facts?
