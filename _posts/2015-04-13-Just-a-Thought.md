@@ -1,8 +1,9 @@
 ---
 layout: post
 category: blog
-title: Just a Thought
-date: 2015-04-13 21:35
+title: "Why the Psalms?"
+date: "2015-04-13 21:35"
+published: true
 ---
 
 Happy Wednesday everyone!  I am writing to you—and hope to continue to do so in the months ahead—as a way of encouragement in your midweek pilgrimage.  My hope is that these “Wednesday words” may give us that extra needed “push” as we yearn to be reunited on Sunday around the means of grace.
