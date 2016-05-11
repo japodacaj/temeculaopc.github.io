@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: Preparing for Worship 1
+date: "2016-05-04"
 ---
 
 5/2/2016
