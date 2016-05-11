@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: Preparing for Worship 1
+title: "My Savior's Obedience and Blood"
 date: "2015-04-27 21:35"
 published: true
 ---
