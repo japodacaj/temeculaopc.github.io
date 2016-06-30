@@ -124,16 +124,6 @@ prose:
     - /js
   metadata:
     _posts:
-      - name: "category"
-        field:
-          element: "select"
-          label: "Add Categories"
-          placeholder: "Choose Category"
-          options:
-            - name: "Blog"
-              value: "blog"
-            - name: "Announcement"
-              value: "announcement"
       - name: "layout"
         field:
           element: "hidden"
@@ -162,3 +152,38 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
+      _posts/blog:
+        - name: "category"
+          field:
+            element: "hidden"
+            value: "blog"
+      _posts/announcements:
+        - name: "category"
+          field:
+            element: "hidden"
+            value: "announcements"
+      _posts/sundays:
+        - name: "category"
+          field:
+            element: "hidden"
+            value: "sundays"
+        - name: "speaker"
+          field:
+            element: "text"
+            label: "Speaker"
+            placeholder: "Jonathan Cruse"
+            alterable: true
+        - name: "text"
+          field:
+            element: "text"
+            label: "Sermon Text"
+            alterable: true
+        - name: "series"
+          field:
+            element: "text"
+            label: "Series"
+            alterable: true
+
+
+
+

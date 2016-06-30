@@ -3,7 +3,7 @@ layout: page
 title: About Providence Church
 subtitle:
 bigimg:
-  - "/img/big-imgs/baptism2.jpg" : "Coral Chase's Baptism, 04/10/16"
+  - "/img/big-imgs/baptism2.jpg" : ""
   - "/img/big-imgs/Community1.jpg" : ""
   - "/img/big-imgs/Community2.jpg" : ""
   - "/img/big-imgs/Community3.jpg" : ""
@@ -11,13 +11,11 @@ bigimg:
   - "/img/big-imgs/Community6.jpg" : ""
   - "/img/big-imgs/Community7.jpg" : ""
   - "/img/big-imgs/suns-out-guns-out.jpg" : ""
-  - "/img/big-imgs/members.jpg" : "New Members, 4/10/16"
-  - "/img/big-imgs/preaching3.jpg" : "Intern Cruse, 4/24/16"
+  - "/img/big-imgs/members.jpg" : ""
+  - "/img/big-imgs/preaching3.jpg" : ""
 ---
 
 ### About Us
-
-Yo
 
 Providence is biblical, which means we believe the Scriptures of the Old and New Testaments are sufficient for our spiritual needs, clear to understand, and the final authority for how we ought to live in this life (2 Tim 3:16-17).  Therefore we are convinced that the Scriptures must be studied.  Above all, though, we believe that the Bible, from Genesis to Revelation, points us to our gracious and merciful Savior Jesus Christ.  It is for this reason that we love studying the Bible.
 

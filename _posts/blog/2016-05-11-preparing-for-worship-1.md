@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 published: true
 title: Preparing for Worship 1
 date: "2016-05-04"

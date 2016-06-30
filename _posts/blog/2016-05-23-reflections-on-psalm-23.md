@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 published: false
 title: Reflections on Psalm 23
 ---
