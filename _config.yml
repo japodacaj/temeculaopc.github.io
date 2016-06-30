@@ -197,14 +197,23 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Post title"
-          placeholder: "Title"
+          label: "Sermon Title"
           alterable: true
-      - name: "subtitle"
+      - name: "series"
         field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
+          element: "text"
+          label: "Series"
+          alterable: true
+      - name: "speaker"
+        field:
+          element: "text"
+          label: "Speaker"
+          placeholder: "Jonathan Cruse"
+          alterable: true
+      - name: "text"
+        field:
+          element: "text"
+          label: "Sermon Text"
           alterable: true
       - name: "date"
         field:
@@ -222,23 +231,5 @@ prose:
         field:
           element: "hidden"
           value: "sundays"
-      - name: "speaker"
-        field:
-          element: "text"
-          label: "Speaker"
-          placeholder: "Jonathan Cruse"
-          alterable: true
-      - name: "text"
-        field:
-          element: "text"
-          label: "Sermon Text"
-          alterable: true
-      - name: "series"
-        field:
-          element: "text"
-          label: "Series"
-          alterable: true
-
-
 
 
