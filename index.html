@@ -28,42 +28,41 @@ bigimg:
     </div>
   </div>
 
+  <hr>
+
   <div class="row">
-    <div class="col-md-4">
-      <h1>Title 1</h1>
-      <img src="http://placehold.it/350x350">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel suscipit
-      lacus. Curabitur nec vehicula dui. Mauris condimentum nec tortor vitae hendrerit.
-      Aliquam mattis urna non lectus gravida, facilisis cursus quam malesuada.
-      Vestibulum facilisis dui in rutrum viverra. Aenean venenatis eros condimentum
-      erat dignissim, et ultricies arcu suscipit. Donec aliquam dolor eu ex eleifend,
-      vel fermentum tellus fermentum. Nunc tempor accumsan urna, nec vehicula tellus volutpat eu.
-      </p>
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Basic panel example
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <h1>Title 2</h1>
-      <img src="http://placehold.it/350x350">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel suscipit
-      lacus. Curabitur nec vehicula dui. Mauris condimentum nec tortor vitae hendrerit.
-      Aliquam mattis urna non lectus gravida, facilisis cursus quam malesuada.
-      Vestibulum facilisis dui in rutrum viverra. Aenean venenatis eros condimentum
-      erat dignissim, et ultricies arcu suscipit. Donec aliquam dolor eu ex eleifend,
-      vel fermentum tellus fermentum. Nunc tempor accumsan urna, nec vehicula tellus volutpat eu.
-      </p>
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h3 class="text-center">This Sunday</h3>
+          {% for post in site.posts %}
+            {% if post.categories contains 'sundays' %}
+              <p class="text-center">
+              {{post.title}}
+              </p>
+              <h6 class="text-center">{{post.text}}</h6>
+              <p class="text-center">
+              {{post.speaker}}
+              </p>
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <h1>Title 3</h1>
-      <img src="http://placehold.it/350x350">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel suscipit
-      lacus. Curabitur nec vehicula dui. Mauris condimentum nec tortor vitae hendrerit.
-      Aliquam mattis urna non lectus gravida, facilisis cursus quam malesuada.
-      Vestibulum facilisis dui in rutrum viverra. Aenean venenatis eros condimentum
-      erat dignissim, et ultricies arcu suscipit. Donec aliquam dolor eu ex eleifend,
-      vel fermentum tellus fermentum. Nunc tempor accumsan urna, nec vehicula tellus volutpat eu.
-      </p>
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Basic panel example
+        </div>
+      </div>
     </div>
   </div>
 
@@ -87,19 +86,7 @@ bigimg:
   <hr>
 
   <div class="row">
-    <div class="col-md-4">
-      <h1>Title 1</h1>
-      <img src="http://placehold.it/350x350">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel suscipit
-      lacus. Curabitur nec vehicula dui. Mauris condimentum nec tortor vitae hendrerit.
-      Aliquam mattis urna non lectus gravida, facilisis cursus quam malesuada.
-      Vestibulum facilisis dui in rutrum viverra. Aenean venenatis eros condimentum
-      erat dignissim, et ultricies arcu suscipit. Donec aliquam dolor eu ex eleifend,
-      vel fermentum tellus fermentum. Nunc tempor accumsan urna, nec vehicula tellus volutpat eu.
-      </p>
-    </div>
-    <div class="col-md-4">
+    <div class="col-md-8">
       <h1>Title 2</h1>
       <img src="http://placehold.it/350x350">
       <p>

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-published: false
+published: true
 title: Reflections on Psalm 23
 ---
 	“The Lord is _my_ Shepherd.”  Let those words of Psalm 23 sink in.  Perhaps they have become too familiar to you and the profundity has worn off, but they teach us a lot about our **personal God**.  That’s the message of the Bible: that Yahweh, the great I AM, entered into His creation and became Emmanuel, God with Us.  The message is that the infinite and the intimate have met.  And because of that, you are able to say that He is your shepherd, He is your pastor, He is your ever-caring caretaker.  He meets your particular and personal needs by leading you by still waters and settling you in green pastures.  What does this mean for you?  In a word, He meets your needs by giving you peace—spiritual peace.  Romans 5:1 tells us that because we have been justified—forgiven—we have peace with God.  Romans 8:1 tells us that we no longer have to fear condemnation.  Apart from our Good Shepherd we have no inner peace; instead our soul is in turmoil within us, condemning us for our many sins and at war with God at every turn.  But the still waters of salvation mean that the inner turmoil has been silenced.  We are at peace because we know that we have every spiritual blessing in the heavenly places, namely, we have a personal God who loves us, who guides us, who cares for us.
