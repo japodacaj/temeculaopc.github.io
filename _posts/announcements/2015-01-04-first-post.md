@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: announcements
 title: First post!
 date: 2015-01-04 21:35
 ---
