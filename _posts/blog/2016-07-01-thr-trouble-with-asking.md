@@ -2,7 +2,7 @@
 category: blog
 layout: post
 published: true
-title: Thr Trouble with Asking
+title: The Trouble with Asking
 date: '2016-06-01'
 ---
 	Christians have long recognized there to be four main components to prayer, often organized into the handy acronym ACTS: adoration, confession, thanksgiving, and supplication.   I want to focus in on this last category of supplication (also petition and request).  I think it may be difficult for us to strike the proper balance of supplication in our prayers.  In some cases, our prayers are only supplication—we neglect to praise God for who He is and what He has done for us because we are too busy asking for all the things we want Him to give us!  But the other end of the spectrum is a problem, too—sometimes we don’t even present our cares and concerns to God at all!  We will worry and fret over them, but we will completely neglect to ask God for His aid.  Why is this the case?  I think two misconceptions are at the heart of this particular bad habit.
