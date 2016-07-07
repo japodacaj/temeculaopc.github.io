@@ -1,6 +1,23 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+@font-face {
+    font-family: 'cinzelregular';
+    src: url('/fonts/cinzel-regular-webfont.woff2') format('woff2'),
+         url('/fonts/cinzel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'linux_biolinum_oregular';
+    src: url('/fonts/linbiolinum_r-webfont.woff2') format('woff2'),
+         url('/fonts/linbiolinum_r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @charset "utf-8";
 
 // Using media queries with like this:
@@ -25,6 +42,48 @@
 
 /* --- General --- */
 
+.page-header {
+  color: #9b0000;
+}
+
+.small-hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #9b0000;
+    color: #9b0000;
+    text-align: center;
+}
+.small-hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+    color: #b57e12;
+}
+
+.hr-space {
+  padding: 40px 0px;
+}
+
+.description {
+  font-family: 'cinzelregular';
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #9b0000;
+}
+
+.sidebar-title,
+.section-title {
+  color: #b57e12;
+}
+
+.sidebar-line {
+  margin-top: 33px;
+}
+
 body {
   font-size: 18px;
   color: #404040;
@@ -34,13 +93,14 @@ body {
 p {
   line-height: 1.5;
   margin: 30px 0;
+  font-family: 'linux_biolinum_oregular';
 }
 p a {
   /* text-decoration: underline */
   color: #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Roboto Slab';
+  font-family: 'cinzelregular';
   font-weight: 400;
 }
 a {
@@ -72,7 +132,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Serif';
+  font-family: '';
   padding: 15px inherit;
 }
 
@@ -118,26 +178,32 @@ img {
 .navbar-custom {
   background: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Serif';
+  font-family: 'cinzelregular';
 }
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
+  font-family: 'linux_biolinum_oregular';
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #404040;
+  color: #9b0000;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus {
-  color: #0085a1;
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  color: #b57e12;
+}
+
+.navbar-custom h1 {
+  font-family: 'linux_biolinum_oregular';
 }
 
 @media only screen and (min-width: 768px) {
@@ -265,12 +331,16 @@ footer a {
   color: #404040;
 }
 
+footer a:hover {
+  color: #9b0000;
+}
+
 footer .list-inline {
   margin: 0;
   padding: 0;
 }
 footer .copyright {
-  font-family: 'Open Sans';
+  font-family: '';
   text-align: center;
   margin-bottom: 0;
 }
@@ -336,7 +406,7 @@ footer .theme-by {
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'Serif';
+  font-family: '';
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -399,7 +469,7 @@ footer .theme-by {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'cinzelregular';
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -424,7 +494,7 @@ footer .theme-by {
   padding: 5px 10px;
   font-size: 11px;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: '', '', Helvetica, Arial, sans-serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -498,7 +568,7 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'linux_biolinum_oregular';
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
