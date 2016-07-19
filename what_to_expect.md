@@ -3,8 +3,11 @@ layout: page
 title:  What to Expect
 subtitle:
 bigimg:
-
 ---
+
+<div class="hr-space">
+  <hr class="small-hr">
+</div>
 
 ### What to Expect:
 

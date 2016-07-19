@@ -5,6 +5,10 @@ subtitle:
 bigimg:
 ---
 
+<div class="hr-space">
+  <hr class="small-hr">
+</div>
+
 ### About Us
 
 Providence is biblical, which means we believe the Scriptures of the Old and New Testaments are sufficient for our spiritual needs, clear to understand, and the final authority for how we ought to live in this life (2 Tim 3:16-17).  Therefore we are convinced that the Scriptures must be studied.  Above all, though, we believe that the Bible, from Genesis to Revelation, points us to our gracious and merciful Savior Jesus Christ.  It is for this reason that we love studying the Bible.
