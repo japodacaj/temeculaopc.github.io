@@ -46,20 +46,6 @@
   color: #9b0000;
 }
 
-.banner-title,
-.sub-banner {
-  color: #fff;
-}
-
-.banner {
-  background-color: #9b0000;
-  margin: -35px -170px;
-}
-
-.banner-inner {
-  margin: 0px 170px;
-}
-
 .small-hr {
     padding: 0;
     border: none;
@@ -67,6 +53,7 @@
     color: #9b0000;
     text-align: center;
 }
+
 .small-hr:after {
     content: "§";
     display: inline-block;
@@ -225,7 +212,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #db9000;
+  color: #9b0000;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -355,15 +342,14 @@ img {
 
 footer {
   padding: 30px 0;
-  background: #9b0000;
-  border-top: 1px #9b0000 solid;
+  background: #f4ebe6;
+  border-top: 1px #f4ebe6 solid;
   margin-top: 50px;
   font-size: 14px;
 }
 
 footer a {
   color: #b57e12;
-  border-radius: 1px #fff solid;
 }
 
 footer a:hover {
@@ -378,7 +364,7 @@ footer .copyright {
   font-family: 'cinzelregular';
   text-align: center;
   margin-bottom: 0;
-  color: #fff;
+  color: #9b0000;
 }
 footer .theme-by {
   text-align: center;
