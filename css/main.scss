@@ -1,6 +1,23 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+@font-face {
+    font-family: 'cinzelregular';
+    src: url('/fonts/cinzel-regular-webfont.woff2') format('woff2'),
+         url('/fonts/cinzel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'linux_biolinum_oregular';
+    src: url('/fonts/linbiolinum_r-webfont.woff2') format('woff2'),
+         url('/fonts/linbiolinum_r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @charset "utf-8";
 
 // Using media queries with like this:
@@ -25,6 +42,93 @@
 
 /* --- General --- */
 
+.page-header {
+  color: #9b0000;
+}
+
+.small-hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #9b0000;
+    color: #9b0000;
+    text-align: center;
+}
+
+.small-hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+    color: #b57e12;
+}
+
+.hr-space {
+  padding: 40px 0px;
+}
+
+.small-hr-alt {
+    padding: 0;
+    border: none;
+    border-top: medium double #9b0000;
+    color: #9b0000;
+    text-align: center;
+}
+
+.small-hr-alt:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+    color: #b57e12;
+}
+
+.hr-space-alt {
+  padding: 40px 0px;
+}
+
+.description {
+  font-family: 'cinzelregular';
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #9b0000;
+}
+
+.sidebar-title,
+.section-title {
+  color: #b57e12;
+}
+
+.sidebar-line {
+  margin-top: 33px;
+}
+
+.panel-title,
+.leadership-section {
+  color: #9b0000;
+}
+
+.contact-title, {
+  font-family: 'linux_biolinum_oregular';
+  color: #b57e12;
+}
+
+.leadership-sub {
+  font-family: 'linux_biolinum_oregular';
+  text-transform: uppercase;
+  color: #b57e12;
+
+}
+
+.map-box {
+  padding: 30px 0;
+}
+
 body {
   font-size: 18px;
   color: #404040;
@@ -34,24 +138,25 @@ body {
 p {
   line-height: 1.5;
   margin: 30px 0;
+  font-family: 'linux_biolinum_oregular';
 }
 p a {
   /* text-decoration: underline */
-  color: #008AFF;
+  color: #9b0000;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Roboto Slab';
+  font-family: 'cinzelregular';
   font-weight: 400;
 }
 a {
-  color: #008AFF;
+  color: #9b0000;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #9b0000;
 }
 blockquote {
-  color: #808080;
+  color: #9b0000;
   font-style: italic;
 }
 hr.small {
@@ -72,7 +177,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Serif';
+  font-family: '';
   padding: 15px inherit;
 }
 
@@ -83,12 +188,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #9b0000;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #9b0000;
 }
 img::selection {
   color: white;
@@ -116,28 +221,34 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #F5F5F5;
-  border-bottom: 1px solid #EAEAEA;
-  font-family: 'Serif';
+  background: #f4ebe6;
+  border-bottom: 1px solid #f4ebe6;
+  font-family: 'cinzelregular';
 }
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
+  font-family: 'linux_biolinum_oregular';
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #404040;
+  color: #9b0000;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus {
-  color: #0085a1;
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  color: #b57e12;
+}
+
+.navbar-custom h1 {
+  font-family: 'linux_biolinum_oregular';
 }
 
 @media only screen and (min-width: 768px) {
@@ -163,6 +274,7 @@ img {
   width: 50px;
   margin-top: -25px;
 }
+
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
   border-radius: 50%;
@@ -172,6 +284,7 @@ img {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); */
 }
+
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
   border-radius: 50%;
@@ -220,7 +333,7 @@ img {
   display: block;
   padding: 10px;
   padding-left: 30px;
-  background: #f5f5f5;
+  background: #f4ebe6;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
@@ -235,7 +348,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom .nav .navlinks-container:hover {
-    background: #eee;
+    background: #f4ebe6;
   }
   .navbar-custom .nav .navlinks-container:hover .navlinks-children {
     display: block;
@@ -246,7 +359,7 @@ img {
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     padding-left: 10px;
-    border: 1px solid #eaeaea;
+    border: 1px solid #f4ebe6;
     border-width: 0 1px 1px;
   }
 }
@@ -255,14 +368,18 @@ img {
 
 footer {
   padding: 30px 0;
-  background: #F5F5F5;
-  border-top: 1px #EAEAEA solid;
+  background: #f4ebe6;
+  border-top: 1px #f4ebe6 solid;
   margin-top: 50px;
   font-size: 14px;
 }
 
 footer a {
-  color: #404040;
+  color: #b57e12;
+}
+
+footer a:hover {
+  color: #9b0000;
 }
 
 footer .list-inline {
@@ -270,9 +387,10 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: 'Open Sans';
+  font-family: 'cinzelregular';
   text-align: center;
   margin-bottom: 0;
+  color: #9b0000;
 }
 footer .theme-by {
   text-align: center;
@@ -316,7 +434,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085a1;
+  color: #9b0000;
 }
 
 .post-preview .post-title {
@@ -330,13 +448,13 @@ footer .theme-by {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #808080;
+  color: #b57e12;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'Serif';
+  font-family: '';
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -399,7 +517,7 @@ footer .theme-by {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'cinzelregular';
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -424,7 +542,7 @@ footer .theme-by {
   padding: 5px 10px;
   font-size: 11px;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: '', '', Helvetica, Arial, sans-serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -458,6 +576,11 @@ footer .theme-by {
   padding: 20px 0;
   box-shadow: 0 0 5px #AAA;
 }
+
+.no-img {
+  padding: 50px 0 0;
+}
+
 /* Many phones are 320 or 360px, so make sure images are a proper aspect ratio in those cases */
 .header-section.has-img .intro-header.no-img {
   display: none;
@@ -498,7 +621,7 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'linux_biolinum_oregular';
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -516,8 +639,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: #9b0000;
+  border: 1px solid #9b0000;
 }
 
 .pager {

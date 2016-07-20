@@ -3,17 +3,11 @@ layout: page
 title: About Providence Church
 subtitle:
 bigimg:
-  - "/img/big-imgs/baptism2.jpg" : ""
-  - "/img/big-imgs/Community1.jpg" : ""
-  - "/img/big-imgs/Community2.jpg" : ""
-  - "/img/big-imgs/Community3.jpg" : ""
-  - "/img/big-imgs/Community5.jpg" : ""
-  - "/img/big-imgs/Community6.jpg" : ""
-  - "/img/big-imgs/Community7.jpg" : ""
-  - "/img/big-imgs/suns-out-guns-out.jpg" : ""
-  - "/img/big-imgs/members.jpg" : ""
-  - "/img/big-imgs/preaching3.jpg" : ""
 ---
+
+<div class="hr-space">
+  <hr class="small-hr">
+</div>
 
 ### About Us
 
