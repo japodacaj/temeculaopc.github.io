@@ -69,6 +69,29 @@
   padding: 40px 0px;
 }
 
+.small-hr-alt {
+    padding: 0;
+    border: none;
+    border-top: medium double #9b0000;
+    color: #9b0000;
+    text-align: center;
+}
+
+.small-hr-alt:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+    color: #b57e12;
+}
+
+.hr-space-alt {
+  padding: 40px 0px;
+}
+
 .description {
   font-family: 'cinzelregular';
   text-transform: uppercase;
@@ -105,6 +128,7 @@
 .map-box {
   padding: 30px 0;
 }
+
 body {
   font-size: 18px;
   color: #404040;
@@ -250,6 +274,7 @@ img {
   width: 50px;
   margin-top: -25px;
 }
+
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
   border-radius: 50%;
@@ -259,6 +284,7 @@ img {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); */
 }
+
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
   border-radius: 50%;
@@ -307,7 +333,7 @@ img {
   display: block;
   padding: 10px;
   padding-left: 30px;
-  background: #9b0000;
+  background: #f4ebe6;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
@@ -322,7 +348,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom .nav .navlinks-container:hover {
-    background: #eee;
+    background: #f4ebe6;
   }
   .navbar-custom .nav .navlinks-container:hover .navlinks-children {
     display: block;
@@ -333,7 +359,7 @@ img {
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     padding-left: 10px;
-    border: 1px solid #9b0000;
+    border: 1px solid #f4ebe6;
     border-width: 0 1px 1px;
   }
 }
@@ -550,6 +576,11 @@ footer .theme-by {
   padding: 20px 0;
   box-shadow: 0 0 5px #AAA;
 }
+
+.no-img {
+  padding: 50px 0 0;
+}
+
 /* Many phones are 320 or 360px, so make sure images are a proper aspect ratio in those cases */
 .header-section.has-img .intro-header.no-img {
   display: none;
