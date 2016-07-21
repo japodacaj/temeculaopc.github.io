@@ -2,9 +2,9 @@
 category: sundays
 layout: post
 published: true
-title: A Suffering Servant
+title: 'Give Me Liberty, Or...'
 series: King Jesus Is All
-text: 'Colossians 1:24-2:5'
+text: 'Colossians 2:16-23'
 date: '2016-07-03'
 ---
 ## A New Post
