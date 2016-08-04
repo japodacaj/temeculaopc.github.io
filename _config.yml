@@ -46,8 +46,8 @@ avatar: "/img/Prov-OPC-Cross.png"
 author:
   name: Providence Temecula OPC
   email: "info@temeculaopc.org"
-  facebook: "facebook.com"  # eg. daattali
-  twitter:   "twitter.com" # eg. daattali
+  facebook: "temeculaopc"  # eg. daattali
+  twitter:   "temeculaopc" # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
