@@ -1,11 +1,11 @@
 ---
+category: blog
 layout: post
 published: true
 title: Preparing for Worship 2
-category: blog
-date: "2016-05-10"
+date: '2016-05-10'
 ---
-	Last week we had the opportunity to explore some ways we can better prepare our hearts for Sabbath worship on Saturday.  This week I would like to offer just a few suggestions on how you can best give God the glory that He is due.
+Last week we had the opportunity to explore some ways we can better prepare our hearts for Sabbath worship on Saturday.  This week I would like to offer just a few suggestions on how you can best give God the glory that He is due.
 
 **Show up on time.**  Really, show up early!  Worship begins at 10, so it would be great to start making it a habit of showing up around 9:50 or so.  That way you can find your seat, get your things in order, and be ready to hear God’s call to worship when it comes to you.  Rushing in late is of course not conducive to calming and preparing our hearts for the Divine service.  In a sense, God ask so little of us, friends: an hour and a half once a week for worship. That’s it.  That’s six hours a month.  Studies show that we are very likely to sit in front of the TV or computer for that much time in a single day!  Surely we can show up in time to give God the full portion of the week he has required of us for corporate worship? 
 
