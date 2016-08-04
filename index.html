@@ -94,19 +94,16 @@ bigimg:
 
   <div class="row">
     <div class="col-md-8">
-      <h1 class="section-title">Title 2</h1>
-      <hr>
-      <img src="http://placehold.it/350x350">
-      <hr>
-      <h2 class="panel-title">Here is a Sub-Title</h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel suscipit
-      lacus. Curabitur nec vehicula dui. Mauris condimentum nec tortor vitae hendrerit.
-      Aliquam mattis urna non lectus gravida, facilisis cursus quam malesuada.
-      Vestibulum facilisis dui in rutrum viverra. Aenean venenatis eros condimentum
-      erat dignissim, et ultricies arcu suscipit. Donec aliquam dolor eu ex eleifend,
-      vel fermentum tellus fermentum. Nunc tempor accumsan urna, nec vehicula tellus volutpat eu.
-      </p>
+      <h1 class="section-title">Announcements</h1>
+
+      {% for post in site.posts %}
+        {% if post.categories contains 'announcements' %}
+          <h3>{{post.title}}</h3>
+          {{post.content}}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
     </div>
     <div class="col-md-4">
       <h3 class="sidebar-title">Providence Temecula OPC</h3>
