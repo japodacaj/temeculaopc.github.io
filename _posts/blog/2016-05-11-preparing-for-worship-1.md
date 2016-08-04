@@ -1,13 +1,10 @@
 ---
-layout: post
 category: blog
+layout: post
 published: true
 title: Preparing for Worship 1
-date: "2016-05-04"
+date: '2016-05-04'
 ---
-
-5/2/2016
-
 This week I wanted to explore with you a little about what it means to prepare for worship each week.  It is interesting to note that our Confession says that properly keeping the Sabbath entails, in part, the preparation of our hearts and the ordering of our common affairs beforehand (WCF 21.8).  I want to focus in on that “beforehand” aspect and offer some helpful tips on how to prepare for worship on Saturday.  I have just four simple things to suggest:
 
 **Review the liturgy.**  Our liturgy goes out usually on Thursday or Friday via email.  On Saturday, why not read through the passage that will be preached on the next day?  Familiarize yourself with the text…even do some background reading if you wish!  Also see what hymns are being sung that Sunday.  If you don’t know one of them, read through it at home and practice singing it.  (Along with that point—make sure you have a hymnal of your own at home!)  Sadly, sometimes we can be distracted by the “newness” of things.  This is one way of preventing that kind of distraction on Sunday when our focus should be on God.
