@@ -2,7 +2,6 @@
 layout: page
 title: About Providence Church
 subtitle:
-bigimg:
 ---
 
 <div class="hr-space">

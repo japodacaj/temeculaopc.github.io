@@ -23,8 +23,8 @@ description:
 
 # List of links in the navigation bar
 navbar-links:
-  About Us:
-    - About Providence: "about_us"
+  About:
+    - About Providence: "about"
     - Church Distinctives: "church_distinctives"
     - Church Leadership: "church_leadership"
     - Contact Us: "contact"
@@ -34,6 +34,7 @@ navbar-links:
   Updates:
     - Announcements: "announcements"
     - Church Blog: "blog"
+  Members: "members"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
