@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Announcements
-subtitle: Temecula OPC
+subtitle: Providence Temecula OPC
 bigimg:
   - "/img/big-imgs/baptism2.jpg" : ""
   - "/img/big-imgs/Community1.jpg" : ""
@@ -18,59 +18,50 @@ bigimg:
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Welcome</h1>
-      <p>
-        Providence is a congregation of saints who are united by the transforming
-        Gospel of Jesus Christ, meeting weekly to worship the Triune God in spirit
-        and in truth (John 4:24) and with reverence and awe (Heb 12:28).
-        We are a biblical, confessional, and presbyterian church, and we would
-        love to have you join us for worship! In the meantime, explore our site
-        to learn more about us, listen to recent sermons, and find out about our
-        upcoming events.
-      </p>
+      <div class="posts-list">
+        {% for post in site.posts %}
+          {% if post.categories contains 'announcements' %}
+            <article class="post-preview">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                <h2 class="post-title">{{ post.title }}</h2>
+
+                {% if post.subtitle %}
+                  <h3 class="post-subtitle">
+                    {{ post.subtitle }}
+                  </h3>
+                {% endif %}
+              </a>
+
+              <p class="post-meta">
+              {{ post.date | date: "%B %-d, %Y" }}
+              </p>
+
+              <div class="post-entry">
+                {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
+                <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+              </div>
+
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      {% if paginator.total_pages > 1 %}
+        <ul class="pager main-pager">
+          {% if paginator.previous_page %}
+            <li class="previous">
+              <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+            </li>
+          {% endif %}
+          {% if paginator.next_page %}
+            <li class="next">
+              <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+            </li>
+          {% endif %}
+        </ul>
+      {% endif %}
+
     </div>
   </div>
 </div>
 
-<div class="posts-list">
-  {% for post in site.posts %}
-    {% if post.categories contains 'announcements' %}
-      <article class="post-preview">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <h2 class="post-title">{{ post.title }}</h2>
-
-          {% if post.subtitle %}
-            <h3 class="post-subtitle">
-              {{ post.subtitle }}
-            </h3>
-          {% endif %}
-        </a>
-
-        <p class="post-meta">
-        Posted on {{ post.date | date: "%B %-d, %Y" }}
-        </p>
-
-        <div class="post-entry">
-          {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-        </div>
-
-      </article>
-    {% endif %}
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-  <ul class="pager main-pager">
-    {% if paginator.previous_page %}
-      <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-      </li>
-    {% endif %}
-    {% if paginator.next_page %}
-      <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-      </li>
-    {% endif %}
-  </ul>
-{% endif %}

@@ -3,18 +3,17 @@ layout: page
 title: Providence
 subtitle: Temecula OPC
 bigimg:
-  - "/img/big-imgs/baptism2.jpg" : ""
-  - "/img/big-imgs/Community1.jpg" : ""
-  - "/img/big-imgs/Community2.jpg" : ""
-  - "/img/big-imgs/Community3.jpg" : ""
-  - "/img/big-imgs/Community5.jpg" : ""
-  - "/img/big-imgs/Community6.jpg" : ""
-  - "/img/big-imgs/Community7.jpg" : ""
-  - "/img/big-imgs/suns-out-guns-out.jpg" : ""
-  - "/img/big-imgs/members.jpg" : ""
-  - "/img/big-imgs/preaching3.jpg" : ""
+  - "/img/big-imgs/baptism2.jpg" : "Coral Chase's Baptism, 04/10/16"
+  - "/img/big-imgs/Community1.jpg" : "Fellowship"
+  - "/img/big-imgs/Community2.jpg" : "Fellowship"
+  - "/img/big-imgs/Community3.jpg" : "Fellowship"
+  - "/img/big-imgs/Community5.jpg" : "Fellowship"
+  - "/img/big-imgs/Community6.jpg" : "Fellowship"
+  - "/img/big-imgs/Community7.jpg" : "Fellowship"
+  - "/img/big-imgs/suns-out-guns-out.jpg" : "Fellowship"
+  - "/img/big-imgs/members.jpg" : "New Members, 4/10/16"
+  - "/img/big-imgs/preaching3.jpg" : "Intern Cruse, 4/24/16"
 ---
-
 
 <div class="container">
   <div class="row">
@@ -31,15 +30,7 @@ bigimg:
   <br>
 
   <div class="row">
-    <div class="col-md-3">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h2 class="text-center panel-title">This is the Title</h2>
-          <p>Basic panel example</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
+    <div class="col-md-6 col-md-offset-3">
       <div class="panel panel-default">
         <div class="panel-body">
           <h2 class="text-center panel-title">This Sunday</h2>
@@ -58,21 +49,13 @@ bigimg:
         </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h2 class="text-center panel-title">This is the Title</h2>
-          <p>Basic panel example</p>
-        </div>
-      </div>
-    </div>
-</div>
+  </div>
 
 
 
-    <div class="hr-space">
-      <hr class="small-hr">
-    </div>
+  <div class="hr-space">
+    <hr class="small-hr">
+  </div>
 
   <div class="row description">
     <div class="col-md-12">
@@ -94,15 +77,23 @@ bigimg:
 
   <div class="row">
     <div class="col-md-8">
-      <h1 class="section-title">Announcements</h1>
-
-      {% for post in site.posts %}
-        {% if post.categories contains 'announcements' %}
+      <h1 class="section-title">Upcoming at Providence</h1>
+      {% assign now = 'now' | date: "%s" | plus: 0 %}
+      {% assign sorted = site.posts | sort: "date" %}
+      {% for post in sorted %}
+        {% assign datetime = post.date | date: "%s" | plus: 0 %}
+        {% if post.categories contains 'announcements' and datetime >= now %}
           <h3>{{post.title}}</h3>
           {{post.content}}
           {% break %}
         {% endif %}
       {% endfor %}
+      <hr />
+      <p>
+      See the full list of upcoming events and information on the
+      <a href="/announcements">Announcements</a>
+      page.
+      </p>
 
     </div>
     <div class="col-md-4">
@@ -124,24 +115,9 @@ bigimg:
       P.O. Box 891165<br />
       Temecula, CA 92589<br />
       Phone: (951) 551-9177<br />
-      Email: info@temeculaopc.org
+      Email: <a href="mailto:info@temeculaopc.org">info@temeculaopc.org</a>
       </p>
       <iframe src="https://maps.google.com/maps?q=45125+Via+Del+Coronado++Temecula+92592&amp;hl=en&amp;ie=UTF8&amp;sll=33.501371,-117.122245&amp;sspn=0.204409,0.349846&amp;hnear=45125+V%C3%ADa+Del+Coronado,+Temecula,+California+92592&amp;t=m&amp;hq=&amp;ll=33.46997,-117.10988&amp;spn=0.021479,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed" height="300" width="300" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
     </div>
   </div>
 </div>
-
-{% if paginator.total_pages > 1 %}
-  <ul class="pager main-pager">
-    {% if paginator.previous_page %}
-      <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-      </li>
-    {% endif %}
-    {% if paginator.next_page %}
-      <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-      </li>
-    {% endif %}
-  </ul>
-{% endif %}
