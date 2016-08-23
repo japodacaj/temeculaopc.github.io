@@ -1,8 +1,9 @@
 ---
 category: blog
 layout: post
-published: false
+published: true
 title: The Call of Wisdom
+date: '2015-08-24'
 ---
 _“Because they hated knowledge and did not choose the fear of the LORD, would have none of my counsel and despised all my reproof, therefore they shall eat the fruit of their way, and have their fill of their own devices. For the simple are killed by their turning away, and the complacency of fools destroys them; but whoever listens to me will dwell secure and will be at ease, without dread of disaster.”_ (Proverbs 1:29–33 ESV)
 
