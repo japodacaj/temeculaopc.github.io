@@ -5,7 +5,7 @@ published: true
 title: When Life Disappoints
 date: '2016-09-07'
 ---
-When we talk about life letting us down we usually mean that we didn't get something that we wanted. Something that we worked hard for and invested much time in, something that seemed perfect to us, something that we loved--it was either taken from us or kept from us entirely. Depending on the circumstances, this can cause real heartbreak. People who we thought were our friends stab us in the back. Plans we meticulously work on fall apart. You can fill in the blank.
+When we talk about life letting us down we usually mean that we didn't get something that we wanted. Something that we worked hard for and invested much time in, something that seemed perfect to us, something that we loved--it was either taken from us or kept from us entirely. Depending on the circumstances, this can cause real heartbreak. Plans we work on fall apart. Friends we love turn on us. Calamity strikes. Death and disease show up unannounced. Things simply go wrong!
 
 How do we cope? How do we move on? The problem gets even worse for Christians, right? Because we have to reconcile our loss with the promises of our True and Sovereign God who says that He will give us the desires of our heart (Psalm 37), nor will he withhold any good thing (Psalm 84), or that He has given us every spiritual blessing (Eph 1), or that He will give us ALL THINGS (Rom. 8). If God is so audacious to say this, how come He can't seem to give me the ONE thing I have been longing for?! How am I supposed to believe He will do good to me or see me through hardship?
 
