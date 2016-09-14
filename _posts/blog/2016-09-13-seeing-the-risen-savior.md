@@ -3,7 +3,7 @@ category: blog
 layout: post
 published: true
 title: Seeing the Risen Savior
-date: '2016-09-13'
+date: '2016-09-16'
 ---
 _When I saw him, I fell at his feet as though dead. But he laid his right hand on me, saying, “Fear not, I am the first and the last, and the living one. I died, and behold I am alive forevermore, and I have the keys of Death and Hades.”
 (Revelation 1:17–18)_
