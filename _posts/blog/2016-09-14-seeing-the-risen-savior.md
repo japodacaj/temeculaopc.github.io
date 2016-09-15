@@ -8,7 +8,7 @@ date: '2016-09-14'
 _When I saw him, I fell at his feet as though dead. But he laid his right hand on me, saying, “Fear not, I am the first and the last, and the living one. I died, and behold I am alive forevermore, and I have the keys of Death and Hades.”
 (Revelation 1:17–18)_
 
-Seeing the Christ in His risen and glorified state caused John's knees to buckle. He assumes a posture of reverential fear that we should all exhibit as we enter the presence of our Lord at corporate worship. But this was slightly different than the experience you or I have on any given Sunday. The reason? There was no veil, no mediation--John's faith was made sight. He was seeing not in a mirror dimly, but literally face to face.
+Seeing the Christ in His risen and glorified state caused John's knees to buckle. He assumes a posture of reverential fear that we should all exhibit as we enter the presence of our Lord at corporate worship. But this was slightly different than the experience you or I have on any given Sunday. The reason? There was no veil, no mediation -- John's faith was made sight. He was seeing not in a mirror dimly, but literally face to face.
 
 And it nearly killed him.
 
