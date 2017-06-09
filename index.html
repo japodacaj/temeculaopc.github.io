@@ -27,32 +27,6 @@ bigimg:
     </div>
   </div>
 
-  <br>
-
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h2 class="text-center panel-title">This Sunday</h2>
-          {% for post in site.posts %}
-            {% if post.categories contains 'sundays' %}
-              <p class="text-center">
-              {{post.title}}
-              </p>
-              <h6 class="text-center">{{post.text}}</h6>
-              <p class="text-center">
-              {{post.speaker}}
-              </p>
-              {% break %}
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
   <div class="hr-space">
     <hr class="small-hr">
   </div>
